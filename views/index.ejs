@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digits Example</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <div class="container">
+      <button class="digits-button">Sign In with Digits</button>
+  </div>
+  <script>
+    var config = {
+      digitsConsumerKey: '<%= DIGITS_CONSUMER_KEY %>'
+    };
+  </script>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://cdn.digits.com/1/sdk.js" async id="digits-sdk"></script>
+  <script src="/javascripts/digits.js"></script>
+</body>
+</html>
